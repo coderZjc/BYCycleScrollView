@@ -30,7 +30,7 @@ class ViewController: UIViewController,BYCycleScrollViewDelegate
         let view = BYCycleScrollView.init(frame: CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: 200))
         self.view.addSubview(view)
         view.delegate=self
-        view.timeInterval=3
+        view.timeInterval=2
         view.setUpPageControl(normalImage: #imageLiteral(resourceName: "未选中的点"), currentImage: #imageLiteral(resourceName: "选中的点"), itemSpace: 0)
         let str0 = "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=284152039,3597926587&fm=27&gp=0.jpg"
         let str1="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506334806831&di=969b5039a4155ca17ef102b1da8a9427&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201407%2F17%2F20140717203644_KzdWV.thumb.700_0.jpeg"
@@ -48,7 +48,7 @@ class ViewController: UIViewController,BYCycleScrollViewDelegate
         let view = BYCycleScrollView.init(frame: CGRect.init(x: 0, y: 350, width: UIScreen.main.bounds.size.width, height: 200))
         self.view.addSubview(view)
         view.delegate=self
-        view.timeInterval=3
+        view.timeInterval=2
         view.imagesArray=[#imageLiteral(resourceName: "image0"),#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
         view.pageTintColor=UIColor.lightGray
         view.currentPageTintColor=UIColor.orange
